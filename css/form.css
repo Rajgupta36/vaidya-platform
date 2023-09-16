@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+input {
+    width: 16px;
+    height: 16px;
+}
+
+.form {
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem;
+    background: url(../img/luxa.org-opacity-changed-pexels-leo-mandala-18189791.jpg) no-repeat center center/cover;
+}
+
+.cs-grid {
+    padding: 2vw;
+    padding-bottom: 0;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    border-radius: 1vw;
+}
+
+form {
+    padding: 1.3vw;
+    display: grid;
+    padding-bottom: 0;
+    grid-gap: 2.4vw;
+    grid-template-areas:
+        'item-1 item-1 item-1 item-1'
+        'item-5 item-5 item-5 item-5'
+        'item-8 item-8 item-8 item-8'
+        'item-7 item-7 item-7 item-7'
+        'item-7  item-7 item-7 item-7'
+        'item-7  item-7 item-7 item-7'
+    ;
+    grid-row-gap: 2.4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    grid-area: header;
+}
+
+.item-1 {
+    grid-area: item-1;
+}
+
+
+
+
+.item-5 {
+    grid-area: item-5;
+}
+
+
+
+.item-7 {
+    grid-area: item-7;
+}
+
+.item-8 {
+    grid-area: item-8;
+}
+
+.item-1,
+
+.item-5,
+.item-7 {
+
+    padding: .4vw auto;
+    text-align: left;
+
+}
+
+form>div {
+    width: 100%;
+}
+
+.item {
+    height: 1.3vw;
+    border: #c4bfbf;
+    padding: 1.8vw;
+    border-radius: .5rem;
+    width: 90%;
+    box-shadow: 0 .5vw 1vw rgba(0, 0, 0, 0.3);
+}
+
+
+.form button {
+    height: 3.5vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-top: 2vw;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgb(28, 30, 33);
+    border-radius: 1.6rem;
+    align-self: center;
+    margin: auto;
+}
+
+.form button:hover {
+    background: rgb(1, 164, 63);
+    color: rgb(27, 25, 25);
+    transition: all .5s ease-in-out;
+}
+
+
+
+.item>h4 {
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+
+.item-7 {
+    text-align: center;
+}
+
+.doshafield {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+span {
+    font-size: 1.6vw;
+}
+
+.bodytypebox>h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.bodytypebox>span {
+    font-size: 1.2vw;
+    margin: 0;
+    padding: 0;
+    color: rgb(130, 127, 127);
+}

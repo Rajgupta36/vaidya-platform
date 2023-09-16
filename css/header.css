@@ -1,0 +1,78 @@
+/* Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    font-family: 'poppins' sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.4vw;
+    background: #1C2331;
+    opacity: 1;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left span {
+    color: #59982A;
+}
+
+
+
+.header-logo {
+    width: 4vw;
+    height: 3vw;
+    margin: .7vw;
+}
+
+.header-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: .1vw;
+}
+
+.header-nav li {
+    font-size: 1.1vw;
+}
+
+.header-nav a,
+.header-right a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.4vw;
+    padding: 0px 2.1vw;
+}
+
+.active {
+    border-bottom: 0.1vw solid #6CAAA8;
+}
+
+.header-nav a:hover {
+
+    color: #6CAAA8;
+}
+
+.header-right a:hover {
+    color: #6CAAA8;
+}
+
+
+.header-login,
+.header-register {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3vw;
+    margin-left: 1.2vw;
+}
