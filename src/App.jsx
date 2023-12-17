@@ -25,6 +25,7 @@ function App() {
         <Route path='/Symptom' element={<Symptom />} />
         <Route path='/Books' element={<Books />} />
 
+
       </Routes>
 
     </BrowserRouter>

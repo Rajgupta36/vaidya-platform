@@ -1,0 +1,29 @@
+h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#symptoms,
+#contradiction {
+    width: 20rem;
+    padding: 1.4rem;
+}
+
+div>label {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.gagan {
+    display: flex;
+    flex-direction: column;
+}
+
+.gagan>input {
+    width: 20rem;
+    padding: 2rem;
+}
+
+.raj>input {
+    width: 20rem;
+    padding: 1.4rem;
+}

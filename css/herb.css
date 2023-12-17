@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'poppins' sans-serif;
+}
+
+.item-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#plantFamily,
+#hindiName,
+#sanskritName,
+#scientificBinomial {
+    width: 35rem;
+    padding: 1.3rem;
+}
+
+.item-1>div {
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin: .6rem;
+}
+
+.item-1>div>label {
+    font-weight: bolder;
+}
+
+.cs-grid {
+    padding: 0 3rem;
+
+}
+
+.herb-info {
+    padding: 6rem;
+    background-color: #359381;
+    color: white;
+    font-weight: lighter;
+
+}
+
+.info-section>h6 {
+    font-size: 2rem;
+    color: black;
+    font-weight: light;
+}
+
+.info-section>p {
+    color: white;
+    margin: .3rem;
+    font-weight: lighter;
+}

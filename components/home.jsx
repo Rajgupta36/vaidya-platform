@@ -2,14 +2,28 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../css/home.css';
+import '../css/paralox.css'
 import Header from './header';
 import Footer from './footer';
+
 
 
 function Main() {
     return (
         <div>
             <Header />
+            <section className="parallax">
+
+                <img src="../img/hill1.png" id="hill1" alt="Hill 1" />
+                <img src="./img/hill2.png" id="hill2" alt="Hill 2" />
+                <img src="./img/hill3.png" id="hill3" alt="Hill 3" />
+                <img src="./img/hill4.png" id="hill4" alt="Hill 4" />
+                <img src="./img/hill5.png" id="hill5" alt="Hill 5" />
+                <img src="./img/tree.png" id="tree" alt="tree" />
+                <h2 id="text">Ayurved Vaidya</h2>
+                <img src="./img/leaf.png" id="leaf" alt="Leaf" />
+                <img src="./img/plant.png" id="plant" alt="Plant" />
+            </section>
             <div className="main">
                 <div className='maincontainer'>
                     <div className="content main-content">
@@ -321,7 +335,7 @@ function Main() {
                 </section>
             </div>
             <Footer />
-        </div>
+        </div >
 
     );
 }

@@ -14,6 +14,7 @@ input {
 }
 
 .form {
+    margin-top: 3.5rem;
     overflow: hidden;
     box-sizing: border-box;
     display: flex;
@@ -21,7 +22,10 @@ input {
     justify-content: center;
     width: 100%;
     padding: 3rem;
-    background: url(../img/luxa.org-opacity-changed-pexels-leo-mandala-18189791.jpg) no-repeat center center/cover;
+    background: url(../img/hill1.png) no-repeat center center/cover;
+    background: url(../img/hill2.png) no-repeat center center/cover;
+    background: url(../img/hill3.png) no-repeat center center/cover;
+
 }
 
 .cs-grid {
@@ -39,6 +43,9 @@ form {
     grid-gap: 2.4vw;
     grid-template-areas:
         'item-1 item-1 item-1 item-1'
+
+        'item-3 item-3 item-3 item-3'
+
         'item-5 item-5 item-5 item-5'
         'item-8 item-8 item-8 item-8'
         'item-7 item-7 item-7 item-7'
@@ -75,7 +82,12 @@ form {
     grid-area: item-8;
 }
 
+.item-3 {
+    grid-area: item-3;
+}
+
 .item-1,
+.item-3,
 
 .item-5,
 .item-7 {

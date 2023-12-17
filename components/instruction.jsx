@@ -13,9 +13,9 @@ const Instruction = () => {
                 <hr className="featurette-divider" />
                 <div className="row featurette">
                     <div className="col-md-15">
-                        <h2 className="featurette-heading" style={{ 'font-size': '3rem' }}>
+                        <h2 className="featurette-heading" style={{ 'fontSize': '3rem' }}>
                             Vata, Pitta, and Kapha<br />
-                            <span name="text-muted" style={{ 'font-size': '2rem', 'color': '#333333' }}>  An Introduction to Three Energetic Forces of Nature and Five Elements</span></h2>
+                            <span name="text-muted" style={{ fontSize: '2rem', color: '#333333' }}>  An Introduction to Three Energetic Forces of Nature and Five Elements</span></h2>
                         <p>The word Ayurveda is derived from the Sanskrit language and it means life and longevity. The Ayurvedic philosophy is native to India but has gained popularity all over the world. The basic philosophy of Ayurveda is to balance the mind, body and spirit.
                             As per Ayurveda, a person is born with a life force that comprises the five elements or building blocks of nature - earth, air, water, space and fire. We, humans, possess a unique balance of these five elements in varying degrees.
                             The balance of these elements is called Dosha. There are three fundamental doshas - vata, pitta and kapha. Good health is considered to be a perfect balance of these three doshas.
